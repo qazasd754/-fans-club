@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員申請</title>
+    <style>
+        @import url("css/member_apply.css");
+    </style>
+    
+</head>
+<body background="img/logo.png">
+    <div class="d2">
+    <form action="action_page.php" method="POST" class="f1" >
+         <fieldset>
+             <legend>個人資料</legend>
+             姓名:<input type="text" name="Name"></br>
+             生日:<input type="date" name="Birth"></br>
+             電話:<input type="tel" name="Telephone"></br>
+             E-mail:<input type="email" name="Email"></br>
+             性別:<input type="radio" name="sex" value="male">男生
+                  <input type="radio" name="sex" value="female">女生<br>
+             住家地址:台灣(the ROC)<br>縣/市<input type="text" name="city" class="b1">
+             鄉/鎮/市/區<input type="text" name="section" class="b1">
+             路/街/村里名稱<br><input type="text "name="small-section" class="b1">
+
+         </fieldset>
+         <fieldset>
+             <legend>帳號及密碼設定</legend>
+             帳號:<input type="text"><br>
+             密碼:<input type="password"><br>
+           
+         </fieldset>
+        </div>
+        <div class="d3">
+         <input type="submit" value="送出" class="BU"/>
+        </div>
+        <div class="d1">
+         <input type="reset" value="重填"class="BU"/>
+        </div>
+    </form>
+</body>
+</html>

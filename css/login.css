@@ -1,0 +1,27 @@
+
+
+.d2{
+    position: absolute;
+    
+    
+    background-color: slategrey;
+    width: 75%;
+    height: 600px;
+}
+td,th{
+    border: 1px rgb(242, 244, 245) solid;
+    padding: 3px;
+}
+.t1{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.p1{
+    font-size: 35px;
+}
+.d3{
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
